@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grupo SYSTEM "07.dtd">
+<grupo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="07.xsd">
+    <estudiantes codigo="E01">
+        <nombre>Manuel</nombre>
+    </estudiantes>
+    <estudiantes codigo="E02" tutor="E01">
+        <nombre>Adrian</nombre>
+    </estudiantes>
+    <estudiantes codigo="E03" tutor="E01">
+        <nombre>Luis</nombre>
+    </estudiantes>
+</grupo>

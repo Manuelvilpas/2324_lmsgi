@@ -1,0 +1,9 @@
+<!ELEMENT grupo (estudiantes*)>
+<!ELEMENT estudiantes (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST estudiantes codigo ID #REQUIRED>
+<!ATTLIST estudiantes tutor IDREFS #IMPLIED>
+<!ATTLIST grupo xmlns:xsi CDATA #IMPLIED   
+        xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+        <!ATTLIST grupo xmlns:xsi CDATA #IMPLIED>
+        <!ATTLIST grupo xsi:noNamespaceSchemaLocation CDATA #IMPLIED>

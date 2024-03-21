@@ -1,0 +1,134 @@
+﻿/* 
+    Created on : 
+    Author     : Amor Rodríguez <amor at marodriguezn@educa.jcyl.es>
+
+*/
+/**Resetear estilos**/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1024px;
+    margin: 0px auto;
+    background-image: url(../images/Le_petit_prince.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-size: 300px;
+    background-attachment: fixed;
+}
+
+header h1{
+    background-color: orange;
+    color: red;
+    font-variant: small-caps;
+}
+
+.par1{
+    background-color: lightblue;
+    color: green;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.static{
+    border-color: orange;
+    border-width:3px ;
+    border-style:solid;
+    padding: 6px;
+}
+.relative{
+    border: 3px dotted plum;
+    padding: 6px;
+    position: relative;
+    left:60px;
+}
+
+.fixed{
+    border: 3px dashed green;
+    padding: 6px;
+    background-color: lightsalmon;
+    position: fixed;
+    bottom:60px;
+    left: 80%;
+}
+
+.relative1{
+    border: 3px solid green;
+    padding: 6px;
+    width: 500px;
+    height: 150px;
+}
+.absolute1{
+    border: 3px solid greenyellow;
+    padding: 6px;
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 6px;
+}
+
+.sticky{
+    background-color: green;
+    color: lightgreen;
+    text-align: center;
+    border: 3px solid lightgreen;
+    border-radius:21px ;
+    padding: 6px;
+    position: sticky;
+    top: 0px;
+}
+
+.container{
+    border:3px solid red;
+    position: absolute;
+
+}
+
+.topleft, .topright, .center, .bottomleft, .bottomright{
+    font-variant: small-caps;
+    background-color: orange;
+    border:3px solid red;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+    color: purple;
+
+}
+
+.img1{
+    position:absolute;
+    left: 6px;
+    top:absolute;
+    width: 250px;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+.topleft{
+    top:3px;
+    left: 3px;
+    position: absolute;
+}
+.topright{
+    top:1%;
+    left: 93%;
+    position: absolute;
+}
+.center{
+    top:50%;
+    left: 50%;
+    position: absolute;
+}
+.bottomleft{
+    top:93%;
+    left: 0%;
+    position: absolute;
+}
+.bottomright{
+    top:93%;
+    left: 91%;
+    position: absolute;
+}

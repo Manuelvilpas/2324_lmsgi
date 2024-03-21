@@ -1,0 +1,92 @@
+main{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+main div{
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    margin:20px;
+    border-width: 5px;
+    display: inline-block;
+    background-size: 35px;
+    border-radius: 8px;
+    
+}
+main div:nth-child(1){
+    background-image: url("../images/punto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+main div:nth-child(2){
+    background-image: url("../images/punto.png"),url("../images/punto.png");
+    background-repeat: no-repeat;
+    background-position: 25% 25%,80% 80%;
+}
+main div:nth-child(3){
+    background-image: url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png");
+    background-repeat: no-repeat;
+    background-position: 20% 20%,80% 80%,50% 50%;
+}
+main div:nth-child(4){
+    background-image: url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png");
+    background-repeat: no-repeat;
+    background-position: 20% 25%,80% 25%,20% 80%,80% 80%;
+}
+main div:nth-child(5){
+    background-image: url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png");
+    background-repeat: no-repeat;
+    background-position: 20% 25%,80% 25%,20% 80%,80% 80%,50% 50%;
+}
+main div:nth-child(6){
+    background-image: url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png"),url("../images/punto.png");
+    background-repeat: no-repeat;
+    background-position: 20% 25%,80% 25%,20% 80%,80% 80%,20% 50%, 80% 50%;
+}
+body{
+    flex-direction: column;
+}
+
+header{
+    background-color: #00272d;
+    color: #bfac8b;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h1{
+    border-style: none  solid solid none ;
+    border-color: #bfac8b ;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+
+
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #0c7e7e;
+    color: #bfac8b;
+    text-align: center;
+    /*clear:both;*/
+    display: flex;
+    flex-wrap:wrap;
+}
+footer div{
+    font-weight: bold;
+    flex-grow: 1;
+}
+footer address{
+    flex-grow: 2;
+}
+footer address em{
+    text-decoration: underline;
+}

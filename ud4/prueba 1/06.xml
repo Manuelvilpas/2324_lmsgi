@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejemplo SYSTEM "06.dtd">
+<ejemplo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="06.xsd">
+    <codigo>
+        <lenguaje>java</lenguaje>
+        <contenido>
+            <![CDATA[
+            public class E01{
+                public static void main(String[] args) {
+                    Scanner teclado = new Scanner(System.in);
+                    System.out.println("Dame tu edad");
+                    int edad = teclado.nextInt();
+                    teclado.nextLine(); // Consume el salto de línea pendiente
+                    System.out.println("Dame tu nombre");
+                    String nombre = teclado.nextLine();
+                    System.out.println("HOLA "+edad+" tienes "+nombre+" años");
+                }
+            }
+        ]]>
+    </contenido>
+    </codigo>
+    <codigo>
+        <lenguaje>HTML</lenguaje>
+        <contenido><![CDATA[
+            <!DOCTYPE html>
+            <html>
+            <body>
+            <h1>Mi primer título</h1>
+            <p>Mi primer párrafo</p>
+            </body>
+            </html>
+        ]]></contenido>
+    </codigo>
+</ejemplo>

@@ -1,0 +1,21 @@
+<!ELEMENT curriculum_vitae (nombre+,apellido+,nacimiento,residencia,datos_contacto)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT residencia (ciudad,pais)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+<!ELEMENT datos_contacto (telefono,correo,perfil,descripcion,competencias*,formacion)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT correo (#PCDATA)>
+    <!ELEMENT perfil (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT competencias (nombre2,nivel)>
+        <!ELEMENT nombre2 (#PCDATA)>
+        <!ELEMENT nivel (#PCDATA)>
+    <!ELEMENT formacion (titulacion,centro,anyo_titulacion)>
+        <!ELEMENT titulacion (#PCDATA)>
+        <!ELEMENT centro (#PCDATA)>
+        <!ELEMENT anyo_titulacion (#PCDATA)>
+        <!ATTLIST curriculum_vitae xmlns:xsi CDATA #IMPLIED >
+        <!ATTLIST curriculum_vitae xsi:noNamespaceSchemaLocation CDATA #IMPLIED >

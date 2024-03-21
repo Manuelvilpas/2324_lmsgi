@@ -1,0 +1,13 @@
+<!ELEMENT Companyia (empleado)>
+    <!ELEMENT empleado (nombre,apellido,numero,gmail,direccion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT gmail (#PCDATA)>
+    <!ELEMENT direccion (ciudad,estado,zip)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT estado (#PCDATA)>
+    <!ELEMENT zip (#PCDATA)>
+
+    <!ATTLIST Companyia xmlns:xsi CDATA #IMPLIED>
+    <!ATTLIST Companyia xsi:noNamespaceSchemaLocation CDATA #IMPLIED>

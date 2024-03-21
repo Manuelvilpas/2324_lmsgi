@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Companyia SYSTEM "05.dtd">
+<Companyia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="05.xsd">
+    <empleado>
+        <nombre>Petrusco</nombre>
+        <apellido>Java</apellido>
+        <numero>123456789</numero>
+        <gmail>Petruscodel15@gmail.com</gmail>
+        <direccion>
+            <ciudad>Ubuntu</ciudad>
+            <estado>Karnataka</estado>
+            <zip>560212</zip>
+        </direccion>
+    </empleado>
+</Companyia>

@@ -1,0 +1,12 @@
+ejemplo{
+    white-space: pre;
+}
+content::after{
+    white-space: pre;
+    content: '\A';white-space: pre;
+}
+title{
+    color: red;
+    border: 1px solid red;
+    font-size: 20px;
+}

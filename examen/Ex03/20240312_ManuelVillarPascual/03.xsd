@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="manual">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="servicio" type="xs:string"/>
+                <xs:element name="descripcion" type="xs:string"/>
+                <xs:element name="version" type="xs:string"/>
+                <xs:element name="fecha_actualizacion" type="xs:date"/>
+                <xs:element name="requisitos_del_sistema" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sistema_operativo" type="xs:string"/>
+                            <xs:element name="memoria_ram" >
+                                <xs:complexType>
+                                    <xs:attribute name="medida" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="espacio_en_disco" type="xs:string" default="GB"/>
+                            <xs:element name="puertos_disponibles" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="otros_datos" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="url">
+                                <xs:complexType>
+                                    <xs:attribute name="pagina" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pasos_de_instalacion" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="paso" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="comando" type="xs:string"/>
+                                        <xs:element name="descripción" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

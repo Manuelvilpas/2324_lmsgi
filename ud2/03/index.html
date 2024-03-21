@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ud2-03 Manuel Villar Pascual</title>
+</head>
+<body>
+     <form action="formulario" method="post">
+        <input type="image" src="images/logo.png" alt="logo" name="logo" style="position: absolute; right: 0; width: 50px; height: 50px;">
+        <fieldset>
+            <legend> inicio de sesion</legend>
+            <label for="Nombre_de_usuario">Nombre </label>
+            <input type="text" maxlength="23" minlength="4" id="Nombre_de_usuario"  name="nom_usuario">
+            <br>
+            <label for="email">Correo electronico (*)</label>
+            <input type="email" name="email"  id="email" required> 
+            <br>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+            <br>
+            <label for="tel">Telefono</label>
+            <input type="tel" name="tel" id="tel" pattern="[0-9]{9}">
+            <br>
+            <label for="fecha"></label>
+            <input type="date" name="fecha" id="fecha">
+            <input type="hidden" name="oculto" id="oculto">
+        </fieldset>
+
+        <fieldset>
+            <legend>Servidor</legend>
+            <input type="radio" name="Servidor" id="EW">Europa del oeste
+            <br>
+            <input type="radio" name="Servidor" id="EWN">Europa del este
+            <br>
+            <input type="radio" name="Servidor" id="NA">Norteamerica
+            <br>
+            <input type="radio" name="Servidor" id="LAS">Sudamerica
+            <br>
+            <input type="radio" name="Servidor" id="PCA">Oceania
+            <br>
+            <input type="radio" name="Servidor" id="CHN">China
+            <br>
+            <input type="radio" name="Servidor" id="KR">Corea
+            <br>
+            <input type="radio" name="Servidor" id="JPN">Japon
+            <br>
+            <input type="radio" name="Servidor" id="BR">Brasil
+        </fieldset>
+
+        <fieldset>
+            <legend>Reportes </legend>
+            <label for="reporte"> Nombre </label>
+            <input type="text" name="repore" id="reporte"> 
+            <br>
+            <input type="checkbox" name="rp1" checked id="rp1">
+            <label for="rp1">Actitud negativa</label>
+            <br>
+            <input type="checkbox" name="rp2" id="rp2">
+            <label for="rp2">Abuso Verbal</label>
+            <br>
+            <input type="checkbox" name="rp3" id="rp3">
+            <label for="rp3">Abandono / Anactividad</label>
+            <br>
+            <input type="checkbox" name="rp4" id="rp4">
+            <label for="rp4">Sacrificio intencionado</label>
+            <br>
+            <input type="checkbox" name="rp5" id="rp5">
+            <label for="rp5">Apologia al Odio</label>
+            <br>
+            <input type="checkbox" name="rp6" id="rp6">
+            <label for="rp6">Hacer Trampas</label>
+            <br>
+            <input type="checkbox" name="rp7" id="rp7">
+            <label for="rp7">Nombre ofensivo o inapropiado</label>
+            <br>
+            <input type="checkbox" name="rp8" id="rp8">
+            <label for="rp8">otros</label>
+            <br>
+            <input type="text"  style="width:400px ; height:200px ;" id="texto" name="texto">
+        </fieldset>
+        <fieldset>
+            <legend>in game </legend>
+            <label for="Roles">Roles</label>
+            <select name="Roles" id="Roles">
+                <option value="TOP">TOP</option>
+                <option value="JNGL">Jungla</option>
+                <option value="MID">MID</option>
+                <option value="ADC">Ad carry</option>
+                <option value="SUPP">Support</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>opciones</legend>
+            <label for="volumen">volumen</label>
+            <input type="range" name="range" id="volumen">
+        </fieldset>
+        <fieldset>
+            <legend>otras cosas</legend>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" max="23:59" min="00:00" id="hora">
+            <br>
+            <label for="semana">Semana</label>
+            <input type="week" name="semana" id="semana">
+            <br>
+            <label for="mes">Mes</label>
+            <input type="month" name="mes" id="mes">
+            <br>
+            <label for="buscar">buscar</label>
+            <input type="search" name="buscar" id="buscar">
+            <br>
+            <label for="url">url</label>
+            <input type="url" name="url" id="url">
+            <br>
+            <label for="numero">numero</label>
+            <input type="number" name="numero" id="numero">
+            <br>
+            <label for="color">color</label>
+            <input type="color" name="color" id="color">
+            <br>
+            
+        </fieldset>
+        
+        <input type="submit" value="Enviar" id="Rnviar">
+        <input type="reset" value="Reset" id="Reset">
+
+    </form>
+
+</body>
+</html>

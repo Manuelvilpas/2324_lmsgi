@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Manuel noticias El pais</title>
+<link>https://elpais.com/</link>
+<description>Noticias de ultima hora de España </description>
+    <language>es-es</language>
+    <category>Noticias</category>
+    <lastBuildDate>jueves, 18 Jan 2024 11:36:00 +1</lastBuildDate>
+    <pubDate>THR, 18 Jan 2024 11:36:00 +1</pubDate>
+<item>
+    <title>Practica8</title>
+    <link>http://192.168.2.211/webroot/UD2/practica8/</link>
+    <description><![CDATA[<p><strong>Practica</strong> de css donde modificamos la practica numero 1</p>]]></description>
+    <enclosure url="" length="218" type="image/jpg" />
+</item>
+<item>
+    <title>Practica 5</title>
+    <link>http://192.168.2.211/webroot/UD2/practica5/</link>
+    <description>Practica donde utilizamos las posiciones</description>
+    <enclosure url="https://imagenes.elpais.com/resizer/6s7xgxPxhKl58FJZYB8Scgry7Po=/1200x0/filters:focal(706x214:716x224)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/4YQBS4QSLJHHRMYZORMUZTMWUQ.jpg" length="218" type="image/jpg" />
+</item>
+<item>
+    <title>Practica 11</title>
+    <link>http://192.168.2.211/webroot/UD2/practica11/</link>
+    <description>Practica dodne modificamos las posiciones</description>
+    <enclosure url="https://imagenes.elpais.com/resizer/9wavPAA1sYjIhujzbgTo9-HK6IY=/1200x0/filters:focal(1953x1945:1963x1955)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ZRPF6N2DEBGQLLKCX2KUIASHP4.jpg" length="218" type="image/jpg" />
+
+</item>
+</channel>Practica8
+</rss>

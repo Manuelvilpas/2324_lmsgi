@@ -1,0 +1,15 @@
+<!ELEMENT pagina (receta+)>
+<!ELEMENT receta (nombre+,descripcion?,tiempo+,ingredientes+,instrucciones+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT tiempo EMPTY> <!-- numeros que van enre 1 y 999-->
+        <!ATTLIST tiempo preparacion CDATA #REQUIRED>
+        <!ATTLIST tiempo coccion ID #IMPLIED>
+    <!ELEMENT ingredientes (ingrediente*)>
+        <!ELEMENT ingrediente (nombrei, cantidad?)>
+            <!ELEMENT nombrei (#PCDATA)>
+            <!ELEMENT cantidad (#PCDATA)>
+                <!ATTLIST cantidad unidad (gramos|pizca|mililitros|cuchadara|chorro) #IMPLIED>
+    <!ELEMENT instrucciones (pasos+)>
+        <!ELEMENT pasos (#PCDATA)>
+    <!ATTLIST receta plato (primero|segundo|postre) "primero">

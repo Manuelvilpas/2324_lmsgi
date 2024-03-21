@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Manuel noticias El pais</title>
+<link>https://elpais.com/</link>
+<description>Noticias de ultima hora de España </description>
+    <language>es-es</language>
+    <category>Noticias</category>
+    <pubDate>jueves, 18 Enero 2024 11:36:00</pubDate>
+<item>
+    <title>Dos excavadores destruyen más de 250 metros lineales del yacimiento de la ciudad vaccea de Pintia en Valladolid</title>
+    <link>https://elpais.com/cultura/2024-01-15/dos-excavadores-destruyen-mas-de-250-metros-lineales-del-yacimiento-de-la-ciudad-vaccea-de-pintia-en-valladolid.html</link>
+    <description>La instalación de una canalización de agua de regadío en plena Ribera del Duero arrasa una zona de gran valor arqueológicoPintia (Padilla del Duero, Valladolid) </description>
+    <enclosure url="https://imagenes.elpais.com/resizer/6s7xgxPxhKl58FJZYB8Scgry7Po=/1200x0/filters:focal(706x214:716x224)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/4YQBS4QSLJHHRMYZORMUZTMWUQ.jpg" length="218" type="image/jpg" />
+</item>
+<item>
+    <title>Premios Emmy: cuándo y dónde ver la gala</title>
+    <link>https://elpais.com/television/2024-01-15/premios-emmy-cuando-y-donde-ver-la-gala.html</link>
+    <description>La Academia de las Ciencias y las Artes de la Televisión premiará los programas de televisión más destacados que se hayan estrenado entre el 1 de junio de 2022 y el 31 de mayo de 2023</description>
+    <enclosure url="https://imagenes.elpais.com/resizer/O6aOSPIWlx9G9noqFKqLbokP8dU=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ODUMIDH67NGOZG2T2V4O4T5STI.jpg" length="218" type="image/jpg" />
+</item>
+<item>
+    <title>Detenciones, peticiones de cárcel y leyes más duras: la presión al activismo climático crece en España y Europa</title>
+    <link>https://elpais.com/clima-y-medio-ambiente/2024-01-15/detenciones-peticiones-de-carcel-y-leyes-mas-duras-la-presion-al-activismo-climatico-crece-en-espana-y-europa.html</link>
+    <description><![CDATA[<p><strong>Europol</strong> alerta del riesgo de que parte del movimiento se vuelva violento, la Policía Nacional detiene a 22 miembros de Futuro Vegetal en pocas semanas y el ecologismo denuncia el intento de criminalización</p>]]></description>
+    <enclosure url="https://imagenes.elpais.com/resizer/9wavPAA1sYjIhujzbgTo9-HK6IY=/1200x0/filters:focal(1953x1945:1963x1955)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ZRPF6N2DEBGQLLKCX2KUIASHP4.jpg" length="218" type="image/jpg" />
+
+</item>
+</channel>
+</rss>

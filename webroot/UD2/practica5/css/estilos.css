@@ -1,0 +1,72 @@
+:root{
+    --color1: #000706;/*para el encabezado*/
+    --color2: #00272d;
+    --color3: #134647;/*para pie de pagina*/
+    --color4: #0c7e7e;/*para la primera letra*/
+    --color5: #bfac8b;/*para el texto*/
+}
+/*header*/
+header{
+    background-color: var(--color1);
+    color: var(--color5);
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h1::first-letter{
+    font-size: 2.5em;
+    color: var(--color4);
+}
+/*footer de la pagina*/
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: var(--color3);
+    color: var(--color5);
+    text-align: center;
+    /*clear:both;*/
+    display: flex;
+    flex-wrap:wrap;
+}
+footer div{
+    font-weight: bold;
+    flex-grow: 1;
+}
+footer address{
+    flex-grow: 2;
+}
+footer address em{
+    text-decoration: underline;
+}
+/*main*/
+main div{
+    /*width: 200px;*/
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+    /*float: left;*/
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+main div:nth-child(1){
+    background-color: var(--color1);
+}
+main div:nth-child(2){
+    background-color: var(--color2);
+}
+main div:nth-child(3){
+    background-color: var(--color3);
+}
+main div:nth-child(4){
+    background-color: var(--color4);
+}
+main div:nth-child(5){
+    background-color: var(--color5);
+}
+/*reseteat estilos*/
+*{margin: 0; padding: 0;}

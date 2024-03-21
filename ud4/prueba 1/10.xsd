@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- Declaracion de elementos simples-->
+<xs:simpleType name="tipoTiempo">
+   <xs:restriction base="xs:int">
+    <xs:minInclusive value="1"/>
+    <xs:maxInclusive value="999"/>
+   </xs:restriction>
+</xs:simpleType>
+<!-- Declaracion de elementos-->
+    <xs:element name="pagina">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="receta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="descripcion" type="xs:string" minOccurs="0"/>
+                            <xs:element name="tiempo">
+                                <xs:complexType>
+                                    <xs:attribute name="preparacion" type="tipoTiempo"/>
+                                    <xs:attribute name="coccion" type="tipoTiempo"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="plato" default="primero">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="primero"/>
+                                    <xs:enumeration value="segundo"/>
+                                    <xs:enumeration value="postre"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

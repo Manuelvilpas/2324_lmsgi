@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE textos SYSTEM "09.dtd">
+<textos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="09.xsd">
+    <texto>&obra;fue escrito pot &escritor;</texto>
+    <texto>&escritor;nacio el &fecha;</texto>
+</textos>

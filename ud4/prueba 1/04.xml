@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum_vitae SYSTEM "04.dtd">
+<curriculum_vitae xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="04.xsd">
+    <nombre>Juan</nombre>
+    <apellido>Pérez</apellido>
+    <nacimiento>07-12-2003</nacimiento>
+    <residencia>
+        <ciudad>Madrid</ciudad>
+        <pais>España</pais>
+    </residencia>
+    <datos_contacto>
+        <telefono>123456789</telefono>
+        <correo>juan@example.com</correo>
+        <perfil>Desarrollador de software</perfil>
+        <descripcion>Soy un desarrollador de software con experiencia en Java y Python.</descripcion>
+        <competencias>
+            <nombre2>Java</nombre2>
+            <nivel>Avanzado</nivel>
+        </competencias>
+        <competencias>
+          <nombre2>Python</nombre2>
+          <nivel>Intermedio</nivel>
+        </competencias>
+        <formacion>
+            <titulacion>Ingeniería Informática</titulacion>
+            <centro>Universidad XYZ</centro>
+            <anyo_titulacion>2020</anyo_titulacion>
+        </formacion>
+    </datos_contacto>
+</curriculum_vitae>
